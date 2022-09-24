@@ -1,0 +1,42 @@
+/* @font-face {
+    font-family:"MemphisRiver";
+    src: url(./fonts/Memphis\ River.otf);
+} */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    position: sticky;
+    top: 0;
+}
+.icon-logo{
+    display: inline-flex;
+    align-items: center;
+    color:rgba(7, 7, 7, 0.78);
+ 
+}
+.logo-image{
+    color: rgba(68, 243, 36, 0.57);
+    height: 50px;
+    margin-bottom: 5px;
+}
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem; 
+}
+.nav-area span{
+   margin: 2px 15px;
+   color:rgba(7, 7, 7, 0.78);
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+.info-area {
+    display: inline-flex;
+    margin-right: 10px;
+    fill:rgba(7, 7, 7, 0.78);
+}
