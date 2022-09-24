@@ -26,9 +26,13 @@
     border-radius: 5px;
     visibility: hidden;
     z-index: 1;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: 0.2s;
   }
   .tooltip:hover .tooltip-text {
     visibility: visible;
+    transform: scaleY(1)
   }
   a{
     text-decoration: none;
