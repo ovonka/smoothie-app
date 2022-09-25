@@ -1,0 +1,111 @@
+ /* MODAL CONTENT*/
+ .modal{
+    position: fixed;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0 , 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .modal-content{
+    position: relative;
+    max-width: 300px;
+    min-height: 500px;
+    border-radius: 15px  15px  15px  15px;
+    padding: 20px;
+    background-color: white;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .basket-nav{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+  }
+  .title{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .cancel-btn button{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 4px;
+    background-color: white;
+    border: 2px solid rgb(193, 209, 194);
+  }
+  .cancel-btn:hover button{
+    background-color:rgb(232, 231, 231) ;
+    cursor: pointer;
+  }
+  .item-brief-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(218, 218, 218);
+  }
+  /* .the-items  .item-brief-info:first-child {
+    padding-top:0;
+  } */
+  .product-image{
+    width:60px;
+    height: fit-content;
+  }
+  .price-product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .item-brief-info:hover{
+    cursor: pointer;
+    background-color: rgb(244, 243, 243);
+  }
+  .add-more-box{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(193, 209, 194);
+    border-radius: 5px 5px 5px 5px;
+  }
+  .count{
+    padding-right: 6px;
+    border-right: 1px solid grey;
+    cursor: pointer;
+  }
+  .countDown{
+    padding-left: 6px;
+    border-left: 1px solid grey;
+     cursor: pointer;
+  }
+  .order-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .basket-btn{
+    display: flex;
+    justify-content: center;
+    }
+    .basket-btn button{
+        width: 100%;
+        min-height: 35px;
+        color: white;
+        background-color:black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .basket-btn:hover button{
+        cursor: pointer;
+    }

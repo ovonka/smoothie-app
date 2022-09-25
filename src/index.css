@@ -30,9 +30,26 @@
     transform-origin: top center;
     transition: 0.2s;
   }
-  .tooltip:hover .tooltip-text {
+  .triangle{
+    position: absolute;
+    left: 25%;
+    top: 65%;
+    width: 0;
+    height: 0;
+    transform: rotate(180deg); 
+    border: 5px solid transparent;
+    border-top-color: #000000;
+    transform-origin: center;
+    transition: 0.2s;
+    opacity: 0.8;
+    visibility: hidden;
+  }
+  .tooltip:hover .triangle{
     visibility: visible;
-    transform: scaleY(1)
+  }
+  .tooltip:hover .tooltip-text{
+    visibility: visible;
+    transform: scaleY(1);
   }
   a{
     text-decoration: none;
