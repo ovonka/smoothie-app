@@ -12,7 +12,7 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/about-us" element={<AboutUs />} />

@@ -10,6 +10,13 @@
     border-radius: 15px 15px 15px 15px;
     padding: 20px;
     transform: translate(-50%, -50%);
+    z-index: 99999999999;
+}
+.back-icon{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    cursor: pointer;
 }
 .product-image-details{
     width: fit-content;
