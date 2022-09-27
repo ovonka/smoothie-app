@@ -27,12 +27,8 @@
    flex-direction: column;
   }
   .the-items{
-    /* height: 70%; */
     overflow-y:scroll;
   }
-  /* .the-items:hover{
-    overflow-y: scroll;
-  } */
   .basket-nav{
     display: flex;
     justify-content: space-between;
