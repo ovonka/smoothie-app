@@ -1,3 +1,7 @@
+nav{
+    position: fixed;
+    left: 40%;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -36,6 +40,15 @@
 }
 .product-info-icon{
     padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+.product-info-icon input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+   /* display: none; */
 }
 .basket-icon{
     position: relative;

@@ -33,7 +33,7 @@
   .triangle{
     position: absolute;
     left: 25%;
-    top: 65%;
+    top: 81%;
     width: 0;
     height: 0;
     transform: rotate(180deg); 

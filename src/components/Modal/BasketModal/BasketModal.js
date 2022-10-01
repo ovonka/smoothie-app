@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import ProductDetails from "../../Products/ProductDetails";
 import "./BasketModal.css";
 
-const BasketModal = () => {
+const BasketModal = (props) => {
+  const { setIsOpen } = props;
   const [count, setCount] = useState(() => 1);
   const [openProduct, setOpenProduct] = useState(false);
+  const navigate = useNavigate();
   const handleIncrement = () => {
     setCount((prevCount) => prevCount + 1);
   };
@@ -14,6 +17,10 @@ const BasketModal = () => {
 
   const handleProductInfo = () => {
     setOpenProduct(true);
+  };
+  const handleCartOpen = () => {
+    navigate("/shopping-cart");
+    setIsOpen(false);
   };
   return (
     <>
@@ -144,7 +151,7 @@ const BasketModal = () => {
               <div className="total-checkout">
                 <span className="basket-btn">
                   {" "}
-                  <button>View Basket</button>
+                  <button onClick={handleCartOpen}>View Shopping Cart</button>
                 </span>
               </div>
             </div>

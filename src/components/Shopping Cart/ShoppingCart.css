@@ -1,0 +1,189 @@
+.background-img{
+    background-image: url("./assets/dumbbells-smoothies-raspberry-sports-nutrition-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: calc(100vh - 75px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.shop-cart{
+  display: flex;
+  justify-content: center;
+  max-height: 450px;
+  height: 450px;
+  overflow: hidden;
+}
+.cart-container{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    overflow-y: scroll;
+    max-width: 600px;
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px 0 0 20px;
+}
+ .shop-headers{
+    position: fixed;
+    left: 19.7%;
+    top: 21.7%;
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(238, 237, 237);
+    width: 500px;
+ }
+.redirect{
+    display:flex;
+    justify-content: flex-start;
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+}
+.redirect:hover svg{
+ cursor: pointer;
+}
+.redirect svg{
+    margin-right: 10px;
+}
+.cart-titles{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.cart-titles span{
+    padding-bottom: 15px;
+}
+.shopping-cart-header{
+    padding-top: 15px;
+}
+.sort-by{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    overflow: visible;
+}
+.sort-by:hover select{
+    cursor: pointer;
+}
+.select-outline{
+    border-style: hidden;
+    outline: none;
+}
+.list-of-items{
+    margin-top: 180px;
+}
+.item-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f9fe;
+    padding: 8px 10px 8px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 1px 1px 0 rgb(60 64 67 / 30%), 0 3px 6px 2px rgb(60 64 67 / 15%);
+}
+.item-photo{
+    padding: 7px;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+}
+.item-photo img{
+    width: 35px;
+}
+.name-descript{
+    display: flex;
+    flex-direction: column;
+}
+.add-box{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    border: none;
+}
+.count{
+    border: none;
+}
+.number-item{
+    padding: 4px;
+    background-color: white;
+    border-radius: 7px;
+}
+.number-item span{
+    font-weight: 700;
+}
+.countDown{
+    border: none;
+}
+.dlt-btn:hover svg{
+    cursor: pointer;
+}
+/* SUMMARY */
+.summary{
+    display: flex;
+    background-color: rgb(232, 231, 231);
+    border-radius: 0 20px 20px 0;
+    padding: 20px;
+    width: 35%;
+    height: 100%;
+    overflow: visible;
+}
+.summary-content{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+}
+.summary-title{
+    margin: 20px 0 35px 0;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-bottom: 15px;
+}
+.summary-item-price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+form{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-bottom: 35px;
+}
+.delivery-opt, .coupon-code{
+    display: flex;
+    flex-direction: column;
+}
+.delivery-opt label, .code-title{
+    margin-bottom: 10px;
+}
+.delivery-opt select{
+    height: 33px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    outline: none;
+}
+.c-input{
+    margin-right: 10px;
+    padding: 3px;
+    outline: none;
+}
+.total-price{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.checkout-btn{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
