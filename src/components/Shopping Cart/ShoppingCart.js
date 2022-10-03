@@ -153,7 +153,7 @@ function ShoppingCart() {
               <span>Items: 3</span>
               <span>R200</span>
             </div>
-            <form>
+            <form className="cart-form">
               <div className="delivery-opt">
                 <label for="delivery-options">Delivery</label>
                 <select>

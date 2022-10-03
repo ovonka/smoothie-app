@@ -149,7 +149,7 @@
     justify-content: space-between;
     margin-bottom: 25px;
 }
-form{
+.cart-form{
     margin-bottom: 20px;
     border-bottom: 1px solid rgb(187, 187, 187);
     padding-bottom: 35px;
