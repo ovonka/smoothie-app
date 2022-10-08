@@ -6,6 +6,7 @@ import Products from "./components/Products/Products";
 import Login from "./components/Authentication/Login";
 import Wishlist from "./components/Wishlist/Wishlist";
 import ShoppingCart from "./components/Shopping Cart/ShoppingCart";
+import ProductDetails from "./components/Products/ProductDetails";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/login" element={<Login />} />
           <Route path="/wishlist" element={<Wishlist />} />

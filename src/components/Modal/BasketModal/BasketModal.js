@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import ProductDetails from "../../Products/ProductDetails";
+import ModalProductDetails from "../../Products/ModalProductDetails";
 import "./BasketModal.css";
 
 const BasketModal = (props) => {
@@ -42,7 +42,7 @@ const BasketModal = (props) => {
                   alt=""
                 />
                 {openProduct && (
-                  <ProductDetails
+                  <ModalProductDetails
                     count={count}
                     handleIncrement={handleIncrement}
                     handleDecrement={handleDecrement}

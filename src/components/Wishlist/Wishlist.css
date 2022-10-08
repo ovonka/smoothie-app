@@ -74,10 +74,11 @@
     right: -50px;
 }
 .add-to-cart button{
-    background-color: black;
-    color: white;
+    background-color: rgb(119, 190, 119);
+    color: black;
+    border: none;
     height: 30px;
-    padding: 2px;
+    padding: 4px;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
 }

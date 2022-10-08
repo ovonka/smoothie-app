@@ -1,0 +1,50 @@
+.about-us-container{
+    padding: 2.5em 5em;
+}
+.about-us-container h6{
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: 400;
+    color: rgb(16, 103, 21);
+}
+.about-us-container h2{
+    margin-bottom: 15px;
+}
+.our-story-section{
+    display: flex;
+}
+.the-story p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.aesthetic-img{
+    display: flex;
+    flex-direction: column;
+}
+ .aesthetic-img img{
+    width: 375px;
+    height: 190px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 0.8em;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.our-values-section > ul li{ 
+   line-height: 1.6;
+   margin: 20px 0 25px 100px;
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+}
+.our-values-section > ul > li svg{
+    fill: green;
+    margin-right: 10px;
+}
+.mission-vision{
+    display: flex;
+    line-height: 1.6;
+}
+.mission{
+    margin-right: 30px;
+}

@@ -1,52 +1,7 @@
-.product-details{
-    display: flex;
-    width: 600px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    right: 50%;
-    border-radius: 15px 15px 15px 15px;
-    padding: 20px;
-    transform: translate(-50%, -50%);
-    z-index: 99999999999;
+.smoothie-detail{
+    padding: 30px;
 }
-.back-icon{
-    position: absolute;
-    top: 2%;
-    right: 5%;
-    cursor: pointer;
-}
-.product-image-details{
-    width: fit-content;
-    border-radius: 15px 15px 15px 15px;
-    margin-right: 15px;
-}
-.product-title{
-    font-style: italic;
-    font-size: 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid grey;
-}
-.detailed-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.ingredients{
-    display: flex;
-    flex-direction: column;
-}
-.ingredients span{
-    padding-bottom: 15px;
-}
-.info-btn-quantity{
-    display: inline-flex;
-    align-items: center;
-    width: 80%;
-}
-.price-quantity{
-    margin-left: 120px;
-}
+/* .item-border{
+    width: calc(100vw - 50%);
+    height: 80vh;
+} */
