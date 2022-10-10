@@ -1,7 +1,62 @@
 .smoothie-detail{
-    padding: 30px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
 }
-/* .item-border{
-    width: calc(100vw - 50%);
-    height: 80vh;
-} */
+.item-border{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70vh;
+    padding: 20px;
+    margin-right: 60px;
+    border-radius: 10px;
+   background-color:hsl(0deg 0% 96%);
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 10px;
+}
+.add-product-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 3px;
+    border: 1px solid rgb(155, 155, 155);
+    margin-bottom: 10px;
+}
+.count-up, .count-down{
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+.description button{
+    padding: 7px;
+   font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(119, 190, 119);
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.pro-detail{
+    margin-bottom: 10px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+}
+.social-media span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid rgb(155, 155, 155);
+}
