@@ -5,11 +5,27 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-container">
-        <img
-          className="home-image"
-          src="https://cdn.shopify.com/s/files/1/1767/3069/files/shutterstock_1064941334_1440x.jpg?v=1543389830"
-          alt="Smoothies on table"
-        />
+        <div className="home-text">
+          <h1>Welcome</h1>
+          <h3>Nkanyiso Ntshangase</h3>
+          <p>
+            You're only one <span> SMOOTHIE</span> and workout <br /> away from
+            a good mood{" "}
+          </p>
+        </div>
+      </div>
+      <div className="product-wrapper">
+        <div className="header-title">
+          <span className="best-seller">
+            Our best Sellers, That You must Experience
+          </span>
+          <span className="add-title">
+            Go on, add them to your basket, what you see is what you'll get.
+          </span>
+        </div>
+        <div className="wrapper">
+          <span>Wrapper</span>
+        </div>
       </div>
     </div>
   );

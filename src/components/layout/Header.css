@@ -1,6 +1,7 @@
-nav{
+.nav-area{
     position: fixed;
     left: 40%;
+    top: 4%;
 }
 .navbar{
     display: flex;
