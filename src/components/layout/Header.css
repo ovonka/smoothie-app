@@ -33,6 +33,10 @@
    color:rgba(7, 7, 7, 0.78);
    font-size: 1rem;
    font-weight: 500;
+   width: fit-content;
+}
+.active{
+    text-decoration: 2.4px underline rgb(40, 77, 40);
 }
 
 .info-area {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import OutsideClickHandler from "react-outside-click-handler";
 import BasketModal from "../Modal/BasketModal/BasketModal";
 import "./Header.css";
@@ -30,15 +30,24 @@ const Header = () => {
         </span>
       </Link>
       <nav className="nav-area">
-        <Link to="/products">
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/products"
+        >
           <span> PRODUCTS</span>
-        </Link>
-        <Link to="/about-us">
+        </NavLink>
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/about-us"
+        >
           <span>ABOUT US</span>
-        </Link>
-        <Link to="/login">
+        </NavLink>
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/login"
+        >
           <span>LOGIN</span>
-        </Link>
+        </NavLink>
       </nav>
       <div className="info-area">
         <div className="tooltip">
