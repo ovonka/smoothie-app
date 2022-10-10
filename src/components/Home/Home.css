@@ -44,3 +44,7 @@
     font-size: larger;
     font-weight: 600;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
